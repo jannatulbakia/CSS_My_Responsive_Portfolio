@@ -72,6 +72,9 @@ body{
 .painting-section{
     display: flex;
     height: 250px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    padding: 20px 0px;
+    border-radius: 10px;
 }
 .painting-image-section img{
     width: 250px;
@@ -115,6 +118,10 @@ body{
 }
 .Reading-section{
     display: flex;
+    height: 250px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    padding: 20px 0px;
+    border-radius: 10px;
 }
 .Footer-section h1{
     color: rgb(39, 37, 37);
@@ -134,22 +141,30 @@ body{
         display: flex;
         flex-direction: column;
     }
+    .Intro-text-section p{
+        height: 100px;
+        width: 170px;
+    }
+    .Intro-text-section{
+        display: flex;
+        flex-direction: column;
+        height: 330px;
+    }
     .moreaboutme{
         display: flex;
         flex-direction: column;
     }
     .painting-section{
         display: flex;
-        flex-direction: column;
-        
+        flex-direction:column;
+        height: 750px;
     }
     .painting-image-section{
         display: flex;
         flex-direction: column;
+        justify-content: right;
     }
     .painting-text-section{
-        display: flex;
-        flex-direction: column;
         width: 340px;
     }
     .Reading-image-section{
@@ -157,13 +172,12 @@ body{
         flex-direction: column;
     }
     .Reading-text-section{
-        display: flex;
-        flex-direction: column;
         width: 340px;
     }
     .Reading-section{
         display: flex;
         flex-direction : column;
+        height: 750px;
     }
     .Footer-section{
         display: flex;
