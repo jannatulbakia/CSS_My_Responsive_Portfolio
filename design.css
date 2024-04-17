@@ -148,7 +148,7 @@ body{
     .Intro-text-section{
         display: flex;
         flex-direction: column;
-        height: 330px;
+        height: 390px;
     }
     .moreaboutme{
         display: flex;
