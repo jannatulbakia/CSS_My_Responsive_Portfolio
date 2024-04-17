@@ -128,7 +128,7 @@ body{
 }
 @media only screen and (max-width: 600px){
     body{
-        margin: 40px 10px;
+        margin: 50px 10px;
     }
     .Introsection{
         display: flex;
@@ -143,10 +143,18 @@ body{
         flex-direction: column;
         
     }
+    .painting-image-section{
+        display: flex;
+        flex-direction: column;
+    }
     .painting-text-section{
         display: flex;
         flex-direction: column;
         width: 340px;
+    }
+    .Reading-image-section{
+        display: flex;
+        flex-direction: column;
     }
     .Reading-text-section{
         display: flex;
