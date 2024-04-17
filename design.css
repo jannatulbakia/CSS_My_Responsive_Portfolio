@@ -32,7 +32,7 @@ body{
     color: grey;
     justify-content: space-evenly;
 }
-.moreaboutme-section h1{
+.moreaboutme h1{
     color: black;
     font-size: x-large; 
     border: 50%;
@@ -41,7 +41,7 @@ body{
     background-color: lavender;
     transition-duration: 1s;
 }
-.moreaboutme-section h2{
+.moreaboutme h2{
     color: black;
     font-size: x-large; 
     border: 50%;
@@ -50,15 +50,15 @@ body{
     background-color: peachpuff;
     transition-duration: 1s;
 }
-.moreaboutme-section h1:hover{
+.moreaboutme h1:hover{
     background-color: pink;
     transform: scale(1.1);
 }
-.moreaboutme-section h2:hover{
+.moreaboutme h2:hover{
     background-color: salmon;
     transform: scale(1.1);
 }
-.moreaboutme-section{
+.moreaboutme{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -148,7 +148,7 @@ body{
         flex-direction: column;
         height: 390px;
     }
-    .moreaboutme-section{
+    .moreaboutme{
         display: flex;
         flex-direction: column;
         height: 300px;
